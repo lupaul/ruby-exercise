@@ -47,4 +47,3 @@ end
 
 MyCar.gas_mileage(13,351)
 my_car = MyCar.new("2010", "Ford Focus", "silver")
-puts my_car
