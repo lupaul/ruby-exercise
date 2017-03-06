@@ -31,9 +31,17 @@ class MyCar
     puts "你緊急煞車！！！ 速度瞬間變為 #{@curren_speed}"
   end
 
+  def spray_paint(color)
+    self.color = color
+    #@color = color
+    puts "你車的顏色變成#{@color}了！！！！"
+  end
+
 end
 
 lumina = MyCar.new(1997, 'chevy lumina', 'white')
 lumina.color = 'black'
 puts lumina.color
 puts lumina.year
+lumina.spray_paint('red')
+puts lumina.color
