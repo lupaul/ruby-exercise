@@ -64,3 +64,9 @@ class MyTruck < Vehicle
   NUMBER_OF_DOORS = 4
 
 end
+
+puts MyCar.ancestors
+puts "**********"
+puts MyTruck.ancestors
+puts "----------"
+puts Vehicle.ancestors
